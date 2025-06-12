@@ -1,7 +1,7 @@
 cart=[]
 while True:
     item=input("Enter an item(or type 'done' to finish): ")
-    if item.lower()=="done":
+    if item=="done":
         break
     cart.append(item)
 print(f"\nTotal number of items in cart: {len(cart)}")
